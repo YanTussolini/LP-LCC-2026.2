@@ -7,6 +7,5 @@ public class IMC {
         double altura = Double.parseDouble(alturaString);
         double imc = peso / (altura*altura);
         JOptionPane.showMessageDialog(null,"Seu imc é de: " + imc);
-
     }
 }
